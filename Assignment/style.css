@@ -1,0 +1,1476 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dfeef7;
+  font-family: "DM Sans";
+}
+
+.info-text {
+  font-size: 14px;
+}
+
+.info-link {
+  font-size: 13px;
+}
+
+.veteran-left {
+  display: flex;
+  align-items: left;
+}
+
+.veteran-logo {
+  padding-left: 27px;
+}
+
+.veteran-text {
+  padding-left: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.veteran-center {
+  display: flex;
+  align-items: center;
+}
+
+.veteran-right {
+  display: flex;
+  justify-content: right;
+}
+
+.text-contact {
+  padding-right: 35px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.nav-logo {
+  padding-left: 55px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  padding-right: 50px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f3951;
+  align-items: center;
+}
+
+.carousel-dots-container {
+  position: absolute;
+  bottom: 100px;
+  left: 48%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.carousel2-dots-container {
+  position: absolute;
+  bottom: 100px;
+  left: 52%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  background-color: #406C93;
+}
+
+/* Sub */
+
+.dropdown {
+  display: flex;
+}
+
+.dropdown a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.dropdown .content-main {
+  display: block;
+  text-decoration: none;
+  padding: 15px 15px;
+}
+
+.dropdown .content-main:hover {
+  border-width: 0 0 2px 0;
+  border-color: #406c93;
+  border-style: solid;
+  padding: 12px;
+  box-sizing: border-box;
+  color: #406c93;
+}
+
+.dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 100px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  padding-left: 50px;
+}
+
+.dropdown .content li {
+  display: flex;
+  position: relative;
+}
+
+.dcontent {
+  position: absolute;
+  top: 114px;
+  left: 1px;
+  width: 100%;
+}
+
+.dropdown:hover .content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Sub 2 */
+
+.dcontent2top {
+  position: absolute;
+  top: 115px;
+  width: 20rem;
+  left: 480px;
+}
+
+/* Sub 3 */
+
+.dcontent3top {
+  position: absolute;
+  top: 115px;
+  width: 20rem;
+  left: 900px;
+}
+
+/* Sub 4 */
+
+.dcontent4top {
+  position: absolute;
+  top: 115px;
+  width: 20rem;
+  left: 1250px;
+}
+
+/* Second dropdown */
+
+.dropdown2 {
+  display: flex;
+}
+
+.dropdown2 .content-main2 {
+  display: block;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+.dropdown2 .content-main2:hover {
+  border-width: 0 0 2px 0;
+  border-color: #406c93;
+  border-style: solid;
+  padding-bottom: 25px;
+  box-sizing: border-box;
+  color: #406c93;
+}
+
+.dropdown2 .content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 100px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  padding-left: 50px;
+}
+
+.dropdown2 .content li {
+  align-items: center;
+}
+
+.dcontent2 {
+  position: absolute;
+  top: 114px;
+  left: 1px;
+  width: 100%;
+}
+
+.dropdown2:hover .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Third dropdown */
+
+.dropdown .content {
+  display: none;
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.dropdown2:hover .content {
+  display: flex;
+  flex-direction: wrap;
+  gap: 120px;
+}
+
+.location2 {
+  width: 188px;
+  height: 100px;
+  background-color: #faf9f9;
+  border: 2px solid #ffff;
+  border-radius: 5px;
+  color: #1f3951;
+  font-family: "DM Sans";
+  font-family: 17px;
+  text-align: center;
+}
+
+.location2 a {
+  position: relative;
+  top: 40px;
+}
+
+.location3 a {
+  position: relative;
+  top: 40px;
+}
+
+.location3 {
+  width: 188px;
+  height: 100px;
+  background-color: #faf9f9;
+  border: 2px solid #ffff;
+  border-radius: 5px;
+  color: #406c93;
+  font-family: "DM Sans";
+  font-family: 17px;
+  text-align: center;
+}
+
+.see-all2 {
+  position: relative;
+  left: 780px;
+  bottom: 70px;
+}
+
+.see-all2 a {
+  font-family: "DM Sans";
+  font-size: 13px;
+  color: #1f3951;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.see-all2 p {
+  font-family: "DM Sans";
+  font-size: 13px;
+  color: #646f78;
+  font-style: italic;
+  font-weight: normal;
+  position: relative;
+  right: 300px;
+  top: 10px;
+}
+
+/* Sub 2 */
+
+.dcontent2top {
+  position: absolute;
+  top: 115px;
+  width: 20rem;
+  left: 480px;
+}
+
+/* Sub 3 */
+
+.dcontent3top {
+  position: absolute;
+  top: 115px;
+  width: 20rem;
+  left: 900px;
+}
+
+/* Sub 4 */
+
+.dcontent4top {
+  position: absolute;
+  top: 115px;
+  width: 20rem;
+  left: 1250px;
+}
+
+/* Edit fonts */
+
+.content-title {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.content-normal {
+  font-family: "DM Sans";
+  font-size: 15px;
+  color: #1f3951;
+  font-weight: 400;
+}
+
+.content-normal1 {
+  font-family: "DM Sans";
+  font-size: 16px;
+  color: #122230;
+  font-weight: 400;
+  width: 30rem;
+  position: relative;
+  bottom: 20px;
+}
+
+.nav-icons {
+  padding-right: 40px;
+  display: flex;
+  gap: 25px;
+  color: #1f3951;
+}
+.nav-finder {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+}
+
+.nav-sale {
+  color: #ed4d4d;
+}
+
+.girl-text {
+  position: relative;
+  bottom: 600px;
+  left: 90px;
+}
+
+.girl img {
+  width: 100%;
+}
+
+.girl-title {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: -20px;
+}
+
+.girl-italic {
+  font-family: "Bodoni Moda";
+  color: #406c93;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.girl-description {
+  font-family: "DM Sans";
+  font-size: 16px;
+  margin-top: -15px;
+}
+
+.girl-buttons {
+  position: relative;
+  bottom: 540px;
+  left: 90px;
+}
+
+.buttons1 {
+  font-family: "DM Sans";
+  font-size: 13px;
+  color: #406c93;
+  border: 2px solid;
+  border-width: 2px;
+  text-align: center;
+  margin-right: 20px;
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.buttons1:hover {
+  background-color: #406c93;
+  color: white;
+  cursor: pointer;
+  transform: 1s;
+  border-color: #406c93;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f9f7f6;
+  position: relative;
+  bottom: 250px;
+  padding: 25px;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav2-items {
+  display: flex;
+}
+
+.nav2-items p {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "DM Sans";
+  font-size: 16px;
+  color: #1f3951;
+  font-weight: 500;
+}
+
+.nav2 img {
+  display: flex;
+  padding-right: 20px;
+}
+
+.sleeper-types {
+  position: relative;
+  bottom: 190px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sleeper-kinds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sleeper-kinds p {
+  font-family: "Bodoni Moda";
+  color: #406c93;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.sleeper-kinds h1 {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  top: 35px;
+}
+
+.sleeper-classes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 60px;
+  align-items: center;
+  gap: 100px;
+  padding-right: 200px;
+}
+
+.bolded-sleeper {
+  font-family: "DM Sans";
+  color: #1f3951;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.sleepers {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-size: 17px;
+}
+
+.desc-one {
+  font-family: "DM Sans";
+  font-size: 11px;
+  font-weight: 700;
+  color: #1f3951;
+  background: #ffdd99;
+  width: 155px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  bottom: 350px;
+  left: 10px;
+  z-index: 100;
+}
+
+.desc-two {
+  font-family: "DM Sans";
+  font-size: 11px;
+  font-weight: 700;
+  color: #1f3951;
+  background: #ffdd99;
+  width: 155px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  bottom: 370px;
+  right: -10px;
+  z-index: 100;
+}
+
+.desc-three {
+  font-family: "DM Sans";
+  font-size: 11px;
+  font-weight: 700;
+  color: #1f3951;
+  background: #ffdd99;
+  width: 155px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  bottom: 370px;
+  left: 15px;
+  z-index: 100;
+}
+
+.pillow-images {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  left: 60px;
+  bottom: 20px;
+}
+
+.pillow-prices img {
+  width: 297px;
+  height: 297px;
+  object-fit: cover;
+  object-position: 0% 100%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.pillow-prices2 {
+  width: 297px;
+  height: 297px;
+  position: relative;
+}
+
+.pillow-prices2 img {
+  width: 297px;
+  height: 297px;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.pillow-prices2:hover img {
+  opacity: 0;
+}
+
+.pillow-prices2::before {
+  content: "";
+  background-image: url("./img/pillow2change.png");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.pillow-namep2,
+.desc-one,
+.pillow-descriptionp2,
+.pillow-pricep2 {
+  position: relative;
+  z-index: 1;
+}
+
+.pillow-prices2:hover::before {
+  opacity: 1;
+}
+
+.pillow-prices2 p {
+  font-family: "DM Sans";
+}
+
+.pillow-namep2 {
+  font-size: 17px;
+  font-weight: 700;
+  width: 300px;
+}
+
+.pillow-descriptionp2 {
+  font-size: 13px;
+  color: #646f78;
+  position: relative;
+  bottom: 38px;
+}
+
+.pillow-pricep2 {
+  font-size: 16px;
+  color: #1f3951;
+  font-weight: 600;
+  position: relative;
+  bottom: 37px;
+}
+
+.less-icon {
+  position: relative;
+  top: 130px;
+  left: 30px;
+  color: #376d94;
+}
+
+.greater-icon {
+  position: relative;
+  right: 30px;
+  top: 120px;
+  color: #376d94;
+}
+
+.pillow-prices p {
+  font-family: "DM Sans";
+}
+
+.pillow-name {
+  font-size: 17px;
+  font-weight: 700;
+  width: 300px;
+  position: relative;
+  top: 5px;
+}
+
+.pillow-description {
+  font-size: 13px;
+  color: #646f78;
+  position: relative;
+  align-content: center;
+  bottom: 40px;
+}
+
+.pillow-description2 {
+  font-size: 13px;
+  color: #646f78;
+  position: relative;
+  align-content: center;
+}
+
+.pillow-price {
+  font-size: 16px;
+  color: #1f3951;
+  font-weight: 600;
+  position: relative;
+  bottom: 40px;
+}
+
+.pillow-price2 {
+  font-size: 16px;
+  color: #1f3951;
+  font-weight: 600;
+  position: relative;
+  bottom: 3px;
+}
+
+.red-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ed4d4d;
+  position: relative;
+  bottom: 40px;
+}
+
+.crossed-price {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: line-through;
+  position: relative;
+  bottom: 77px;
+  left: 110px;
+}
+
+.discount-price {
+  font-size: 13px;
+  color: #ed4d4d;
+  font-weight: 700;
+  text-shadow: 0 5px 10px rgba(237, 77, 77, 0.5);
+  position: relative;
+  bottom: 80px;
+}
+
+.pillows-button {
+  position: absolute;
+  right: 680px;
+  top: 550px;
+  font-family: "DM Sans";
+  font-size: 13px;
+  color: #406c93;
+  border: 2px solid;
+  border-width: 2px;
+  text-align: center;
+  width: 20rem;
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.pillows-button:hover {
+  background-color: #406c93;
+  color: white;
+  cursor: pointer;
+  transform: 1s;
+  border-color: #406c93;
+}
+
+.banner-section {
+  position: relative;
+  bottom: 90px;
+}
+
+.banner-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.banner-info {
+  position: relative;
+  bottom: 350px;
+  padding-left: 80px;
+}
+
+.banner-info p {
+  font-family: "Bodoni Moda";
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  color: #406c93;
+}
+
+.banner-info h1 {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-size: 30px;
+  font-weight: 700;
+  top: 35px;
+}
+
+.button2 {
+  font-family: "DM Sans";
+  font-size: 13px;
+  color: #406c93;
+  background-color: white;
+  border: 2px none;
+  border-width: 2px;
+  text-align: center;
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.button2:hover {
+  color: #1f3951;
+}
+
+.collection {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  position: relative;
+  bottom: 280px;
+  margin-top: 110px;
+  height: 570px;
+}
+
+.collection-offers img {
+  object-fit: cover;
+  width: 380px;
+  height: 480px;
+}
+
+.collection-offers img:hover {
+  transition: transform 0.3s ease-out;
+  transform: scale(1.1);
+}
+
+.collection-offers p {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-size: 28px;
+  font-weight: 700;
+  position: relative;
+  bottom: 510px;
+  left: 25px;
+  margin-top: 40px;
+}
+
+.collection-offers a {
+  font-family: "DM Sans";
+  font-weight: 700;
+  color: #1f3951;
+  font-size: 13px;
+  border: #1f3951;
+  text-decoration: underline;
+  position: relative;
+  bottom: 520px;
+  left: 25px;
+}
+
+.reviews {
+  background-color: #eef6fa;
+  padding-top: 45px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+  width: 100%;
+}
+
+.happy-title {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  bottom: 30px;
+}
+
+.happy-info {
+  font-family: "DM Sans";
+  font-size: 16px;
+  color: #122230;
+  position: relative;
+  bottom: 50px;
+}
+
+.reviews-all {
+  background-color: #eef6fa;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 150px;
+  position: relative;
+  bottom: 250px;
+  width: 100%;
+}
+
+.review {
+  background-color: white;
+  border: white solid;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+  position: relative;
+  width: 25%;
+}
+
+.review1 {
+  background-color: white;
+  border: white solid;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  width: 25%;
+}
+
+.review2 {
+  background-color: white;
+  border: white solid;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+  position: relative;
+  left: 160px;
+  overflow: hidden;
+  width: 25%;
+}
+
+.review-title {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 22px;
+  color: #1f3951;
+  padding: 20px;
+}
+
+.review-desc {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #122230;
+}
+
+.review-sig {
+  font-family: "Bodoni Moda";
+  font-weight: 600;
+  font-size: 20px;
+  color: #406c93;
+}
+
+.reviews-all button {
+  position: absolute;
+  top: 420px;
+  right: 830px;
+  font-family: "DM Sans";
+  font-size: 13px;
+  color: #406c93;
+  border: 2px solid;
+  border-width: 2px;
+  text-align: center;
+  margin-right: 20px;
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.reviews-all button:hover {
+  background-color: #406c93;
+  color: white;
+  cursor: pointer;
+  transform: 1s;
+  border-color: #406c93;
+}
+
+.gbed-pic {
+  width: 100%;
+}
+
+.gbed-pic img {
+  object-fit: cover;
+  width: 28%;
+  height: 600px;
+  box-shadow: -20px 20px 0px RGBA(255, 221, 153, 1);
+  position: relative;
+  left: 150px;
+}
+
+.featured {
+  position: relative;
+  width: 100%;
+  bottom: 150px;
+}
+
+.five-off {
+  font-family: "DM Sans";
+  font-size: 11px;
+  color: #be2c2c;
+  background: #ffebeb;
+  width: 45px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  bottom: 430px;
+  left: -20px;
+  z-index: 100;
+}
+
+.back-stock {
+  font-family: "DM Sans";
+  font-size: 11px;
+  color: #406c93;
+  background: #dfeef7;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  bottom: 430px;
+  left: -20px;
+  z-index: 100;
+}
+
+.featured-info {
+  position: relative;
+  left: 800px;
+  bottom: 675px;
+  width: 30%;
+}
+
+.featured-title {
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+.featured-info p {
+  font-family: "Bodoni Moda";
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  color: #406c93;
+}
+
+.featured-info h1 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 36px;
+  color: #1f3951;
+  position: relative;
+  bottom: 20px;
+}
+
+.feat-logo {
+  margin-left: 90px;
+  position: relative;
+  bottom: 160px;
+  left: 410px;
+  transform-style: preserve-3d;
+  animation: spinY 3s linear infinite;
+}
+
+@keyframes spinY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+.pic-aside {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 740px;
+  left: 230px;
+  font-family: "DM Sans";
+  width: 100%;
+}
+
+.two-combo p {
+  position: relative;
+  right: 32px;
+}
+
+.pillow-name1 {
+  font-weight: 700;
+  font-size: 17px;
+  color: #1f3951;
+  position: relative;
+  bottom: 65px;
+}
+
+.two-combo .pillow-description1 {
+  position: relative;
+  bottom: 115px;
+  font-size: 13px;
+  color: #646f78;
+}
+
+.two-combo .pillow-price1 {
+  position: relative;
+  bottom: 100px;
+  font-size: 16px;
+  color: #1f3951;
+  font-weight: 600;
+}
+.two-combo .red-price1 {
+  position: relative;
+  bottom: 100px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ed4d4d;
+}
+
+.two-combo .crossed-price1 {
+  position: relative;
+  left: 80px;
+  bottom: 138px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.two-combo img {
+  width: 297px;
+  height: 297px;
+  object-fit: cover;
+  object-position: 0% 100%;
+  padding: 25px;
+  position: relative;
+  bottom: 30px;
+  right: 55px;
+}
+
+.two-combo button {
+  position: relative;
+  bottom: 80px;
+  right: 250px;
+  font-family: "DM Sans";
+  font-size: 13px;
+  color: #406c93;
+  border: 2px solid;
+  border-width: 2px;
+  text-align: center;
+  margin-right: 20px;
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 20rem;
+}
+
+.two-combo button:hover {
+  background-color: #406c93;
+  color: white;
+  cursor: pointer;
+  transform: 1s;
+  border-color: #406c93;
+}
+
+.locations {
+  text-align: center;
+  position: relative;
+  bottom: 920px;
+}
+
+.locations-title {
+  margin-bottom: 32px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  color: #406c93;
+  font-weight: 700;
+}
+
+.location-names {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 50px;
+}
+
+.location1 {
+  width: 188px;
+  height: 100px;
+  background-color: #ffffff;
+  border: 2px solid #ffff;
+  box-shadow: 0px 14px 40px #0000000f;
+  border-radius: 5px;
+  color: #1f3951;
+}
+
+.location-names .location1:hover {
+  transform: translateY(-5px);
+}
+
+.location1 p {
+  padding-top: 20px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  color: #1f3951;
+  font-size: 20px;
+}
+
+.location1 p:hover {
+  color: #406c93;
+}
+
+.see-all {
+  margin-top: 45px;
+}
+
+.see-all a {
+  font-family: "DM Sans";
+  font-size: 13px;
+  color: #1f3951;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.help {
+  text-align: center;
+  background-color: #f8f6f6;
+  position: relative;
+  bottom: 850px;
+  padding-top: 20px;
+  margin-left: 25px;
+  width: 97%;
+}
+
+.help-title {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.all-help {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.all-help h4 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 17px;
+  color: #1f3951;
+}
+
+.all-help p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #1f3951;
+}
+
+.last {
+  background-color: #eff6fb;
+  position: relative;
+  bottom: 810px;
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.last .last-about {
+  position: relative;
+  left: 117px;
+}
+
+.last .last-partner {
+  position: relative;
+  left: 117px;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.options p {
+  padding-left: 130px;
+  padding-top: 50px;
+}
+
+.contact-options {
+  display: flex;
+}
+
+.info-options {
+  display: flex;
+  position: relative;
+  left: 130px;
+  bottom: 15px;
+  flex-direction: column;
+  line-height: 0.3;
+}
+
+.about-options {
+  display: flex;
+  position: relative;
+  left: 160px;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.partner-options {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 205px;
+  line-height: 1;
+}
+
+.info-options a {
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  margin-bottom: 15px;
+  color: #1f3951;
+}
+
+.contact-options .italic-option {
+  font-family: "DM Sans";
+  font-size: 13px;
+  color: #646f78;
+  position: relative;
+  left: 70px;
+  top: 15px;
+}
+
+.contact-options a {
+  color: #1f3951;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.about-options a {
+  color: #1f3951;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.partner-options a {
+  color: #1f3951;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.options p {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.contact-options p {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.contact-options a {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.pillow-talk {
+  position: absolute;
+  left: 1050px;
+  bottom: 280px;
+  overflow: hidden;
+}
+
+.pillow-title {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.pillow-text {
+  font-family: "DM Sans";
+  color: #1f3951;
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+  bottom: 5px;
+}
+
+.input-email {
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  padding-right: 100px;
+}
+
+input::placeholder {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: #122230;
+}
+
+.sign-button {
+  color: #ffffff;
+  background-color: #406c93;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  padding: 15px;
+}
+
+.friends {
+  align-items: center;
+  position: absolute;
+  left: 1050px;
+  bottom: 130px;
+}
+
+.friends p {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 24px;
+  color: #1f3951;
+}
+
+.friends i {
+  border: 2px solid #ffffff;
+  border-radius: 60px;
+  border-color: white;
+  background-color: white;
+  color: #406c93;
+  padding: 10px;
+}
+
+.friends .face:hover > i.fa-brands {
+  color: #95bad3;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 850px;
+}
+
+footer p {
+  font-family: "DM Sans";
+  font-size: 13px;
+  color: #646f78;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
